@@ -8,7 +8,8 @@ Summary:	PyQt-builder is the PEP 517 compliant build system for PyQt and project
 URL:		https://pypi.org/project/pyqt-builder/
 License:	BSD-2-Clause
 Group:		Development/Python
-BuildRequires:	python
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
 BuildSystem:	python
 BuildArch:	noarch
 
