@@ -4,7 +4,7 @@ Name:		python-pyqt-builder
 Version:	1.18.2
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/%{pname}/%{pname}-%{version}.tar.gz
-Summary:	The PyQt build system
+Summary:	PyQt-builder is the PEP 517 compliant build system for PyQt and projects that extend PyQt
 URL:		https://pypi.org/project/pyqt-builder/
 License:	BSD-2-Clause
 Group:		Development/Python
@@ -13,7 +13,7 @@ BuildSystem:	python
 BuildArch:	noarch
 
 %description
-The PyQt build system
+PyQt-builder is the PEP 517 compliant build system for PyQt and projects that extend PyQt. It extends the SIP build system and uses Qt's qmake to perform the actual compilation and installation of extension modules.
 
 %files
 %{py_sitedir}/pyqtbuild
